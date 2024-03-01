@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Capitals>
+    <Name> Москва</Name>
+    <Country> Российская Федерация</Country>
+    <PartOfTheWorld>Европа</PartOfTheWorld>
+    <Population>13104177</Population>
+    <Area>2561</Area>
+  </Capitals>
+  <Capitals>
+    <Name>Вашингтон</Name>
+    <Country>США</Country>
+    <PartOfTheWorld>Северная Америка</PartOfTheWorld>
+    <Population>689545</Population>
+    <Area>177 </Area>
+  </Capitals>
+  <Capitals>
+    <Name>Канберра</Name>
+    <Country>Австралия</Country>
+    <PartOfTheWorld>Австралия</PartOfTheWorld>
+    <Population>431826</Population>
+    <Area>812</Area>
+  </Capitals>
+  <Capitals>
+    <Name>Гонконг</Name>
+    <Country>Китай</Country>
+    <PartOfTheWorld>Азия</PartOfTheWorld>
+    <Population>12312</Population>
+    <Area>123123</Area>
+  </Capitals>
+</NewDataSet>

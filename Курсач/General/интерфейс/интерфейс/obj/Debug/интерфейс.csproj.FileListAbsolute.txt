@@ -1,0 +1,15 @@
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\bin\Debug\интерфейс.exe.config
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\bin\Debug\интерфейс.exe
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\bin\Debug\интерфейс.pdb
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс.csproj.AssemblyReference.cache
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\MainWindow.g.cs
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\App.g.cs
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс_MarkupCompile.cache
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс_MarkupCompile.lref
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\MainWindow.baml
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс.g.resources
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс.Properties.Resources.resources
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс.csproj.GenerateResource.cache
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс.csproj.CoreCompileInputs.cache
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс.exe
+C:\Users\elise\Downloads\матвей\интерфейс\интерфейс\obj\Debug\интерфейс.pdb

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+	<Books>
+		<Autor>Аверин Т.О.</Autor>
+		<Name>Как играть лапками на рояле</Name>
+		<Year>2023</Year>
+		<IZD>У меня лапки</IZD>
+		<Janr>Искусство</Janr>
+		<Count>6</Count>
+	</Books>
+	<Books>
+		<Autor>Аверин Т.О.</Autor>
+		<Name>Как любить маму</Name>
+		<Year>2023</Year>
+		<IZD>Реквием</IZD>
+		<Janr>Философия</Janr>
+		<Count>2934</Count>
+	</Books>
+	<Books>
+		<Autor>Аверкин М.Е.</Autor>
+		<Name>Аэродинамика для чайников</Name>
+		<Year>2022</Year>
+		<IZD>ТехАвиа</IZD>
+		<Janr>Наука и Техника</Janr>
+		<Count>674</Count>
+	</Books>
+</NewDataSet>

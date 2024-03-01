@@ -1,0 +1,12 @@
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\bin\Debug\InterLab_2.exe.config
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\bin\Debug\InterLab_2.exe
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\bin\Debug\InterLab_2.pdb
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.csproj.AssemblyReference.cache
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.MainForm.resources
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.Properties.Resources.resources
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.csproj.GenerateResource.cache
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.csproj.CoreCompileInputs.cache
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.exe
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.pdb
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\InterLab_2\InterLab_2\obj\Debug\InterLab_2.ModalForm.resources

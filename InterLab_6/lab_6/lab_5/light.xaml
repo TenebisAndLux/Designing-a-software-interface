@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ThemesApp">
+
+    <Style x:Key="BaseStyle" TargetType="Control">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Offset="0" Color="#FFD8E2C3"/>
+                    <GradientStop Offset="1" Color="#FFA3CFE6"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#434a01"/>
+        <Setter Property="BorderBrush" Value="#FFA500"/>
+        <Setter Property="BorderThickness" Value="2" />
+    </Style>
+
+    <Style TargetType="ComboBox" BasedOn="{StaticResource BaseStyle}">
+        <Setter Property="Foreground" Value="#434a01"/>
+    </Style>
+
+    <Style TargetType="Label" BasedOn="{StaticResource BaseStyle}">
+    </Style>
+
+    <Style TargetType="Window" BasedOn="{StaticResource BaseStyle}">
+    </Style>
+
+    <Style TargetType="Button" BasedOn="{StaticResource BaseStyle}">
+    </Style>
+
+    <Style TargetType="DataGrid" BasedOn="{StaticResource BaseStyle}">
+    </Style>
+
+    <Style TargetType="Expander" BasedOn="{StaticResource BaseStyle}">
+    </Style>
+
+</ResourceDictionary>

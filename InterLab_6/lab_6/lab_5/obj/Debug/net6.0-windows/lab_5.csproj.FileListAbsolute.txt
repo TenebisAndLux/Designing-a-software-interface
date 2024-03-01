@@ -1,0 +1,43 @@
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\bin\Debug\net6.0-windows\lab_5.exe
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\bin\Debug\net6.0-windows\lab_5.deps.json
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\bin\Debug\net6.0-windows\lab_5.runtimeconfig.json
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\bin\Debug\net6.0-windows\lab_5.dll
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\bin\Debug\net6.0-windows\lab_5.pdb
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.csproj.AssemblyReference.cache
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5_MarkupCompile.cache
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5_MarkupCompile.lref
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.g.resources
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.AssemblyInfoInputs.cache
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.AssemblyInfo.cs
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.csproj.CoreCompileInputs.cache
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.dll
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\refint\lab_5.dll
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.pdb
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\lab_5.genruntimeconfig.cache
+C:\Users\meaze\OneDrive\Рабочий стол\3 Курс\Визуалка\InterLab_5_1\lab_5\lab_5\obj\Debug\net6.0-windows\ref\lab_5.dll
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5_MarkupCompile.cache
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5_MarkupCompile.lref
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.dll
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\refint\lab_5.dll
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.pdb
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\bin\Debug\net6.0-windows\lab_5.exe
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\bin\Debug\net6.0-windows\lab_5.deps.json
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\bin\Debug\net6.0-windows\lab_5.runtimeconfig.json
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\bin\Debug\net6.0-windows\lab_5.dll
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\bin\Debug\net6.0-windows\lab_5.pdb
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\dark.baml
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\light.baml
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.g.resources
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.AssemblyInfoInputs.cache
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.AssemblyInfo.cs
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.csproj.CoreCompileInputs.cache
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\lab_5.genruntimeconfig.cache
+C:\Users\79109\Desktop\ППИ\InterLab_6\lab_6\lab_5\obj\Debug\net6.0-windows\ref\lab_5.dll

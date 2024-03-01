@@ -1,0 +1,7 @@
+﻿  FileName.cpp
+C:\Users\79109\Desktop\ППИ\InterProg-Lab2\Temp\Temp\FileName.cpp(10,60): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+  Temp.vcxproj -> C:\Users\79109\Desktop\ППИ\InterProg-Lab2\Temp\x64\Debug\Temp.exe

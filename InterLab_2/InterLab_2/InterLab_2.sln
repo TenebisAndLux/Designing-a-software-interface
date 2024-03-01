@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterLab_2", "InterLab_2\InterLab_2.csproj", "{AAC2DBAA-F299-494A-AC57-960A915AFBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC2DBAA-F299-494A-AC57-960A915AFBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC2DBAA-F299-494A-AC57-960A915AFBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC2DBAA-F299-494A-AC57-960A915AFBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC2DBAA-F299-494A-AC57-960A915AFBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD01E571-A7AA-434E-84BF-FADC8F6D54D4}
+	EndGlobalSection
+EndGlobal

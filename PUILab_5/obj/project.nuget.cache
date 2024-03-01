@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ffODjNGQ/Z5+zh2tmoycFl1YSwo7osBYkhEQl+0w3bW+9jgQY4z/oUDmRE7TPb9QFwN3cxrJpjEF8hhNfQp1ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\heruj\\source\\repos\\PUI\\PUI_lab5\\PUI_lab5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\heruj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\heruj\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\heruj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\heruj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

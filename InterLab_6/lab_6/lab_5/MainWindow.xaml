@@ -1,0 +1,179 @@
+﻿<Window x:Class="lab_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_5" xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="Booking" Height="540" Width="960" MaxWidth="1920" MinWidth="960" MaxHeight="1080" MinHeight="540" Style="{DynamicResource BaseStyle}">
+
+    <Window.Resources>
+        <sys:String x:Key="textAutor">Толстой</sys:String>
+        <sys:String x:Key="textName">Война и мир</sys:String>
+        <sys:String x:Key="textYear">1840</sys:String>
+        <sys:String x:Key="textIZD">Лучшие книги</sys:String>
+        <sys:String x:Key="textJanr">Роман</sys:String>
+        <sys:String x:Key="textCount">850</sys:String>
+    </Window.Resources>
+
+    <Grid x:Name="MainGrid">
+
+        <Grid.Resources>
+            <XmlDataProvider x:Key="UsersData" Source="Resources/data.xml" XPath="/NewDataSet/Books" IsAsynchronous="False"/>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.32*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Row="0" Grid.Column="0" Dock ="Left"  FlowDirection="LeftToRight" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="autorRow" Height="1.1*"/>
+                    <RowDefinition x:Name="nameRow" Height="1.1*"/>
+                    <RowDefinition x:Name="yearRow" Height="1.1*"/>
+                    <RowDefinition x:Name="IZDRow" Height="1.1*"/>
+                    <RowDefinition x:Name="JanrRow" Height="1.1*"/>
+                    <RowDefinition x:Name="countRow" Height="1.1*"/>
+                    <RowDefinition x:Name="addRow" Height="0.8*"/>
+                    <RowDefinition x:Name="changeRow" Height="0.8*"/>
+                    <RowDefinition x:Name="deleteRow" Height="0.8*"/>
+                </Grid.RowDefinitions>
+
+                <Expander Header="Автор" Grid.Column="0" Grid.Row="0" IsExpanded="True" Margin="0,0,0,0" Grid.RowSpan="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Автор" Grid.Column="0" Grid.Row="0" Style="{DynamicResource BaseStyle}" HorizontalContentAlignment="Stretch" FontSize="9"/>
+                        <TextBox x:Name="tbAutor" MaxWidth="250" MinWidth="145" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0" Text="{DynamicResource textAutor}" Style="{DynamicResource BaseStyle}"></TextBox>
+                    </Grid>
+                </Expander>
+
+                <Expander Header="Название" Grid.Column="0" Grid.Row="1" IsExpanded="True" Margin="0,0,0,0" Grid.RowSpan="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Название" Grid.Column="0" Grid.Row="0" Style="{DynamicResource BaseStyle}" HorizontalContentAlignment="Stretch" FontSize="9"/>
+                        <TextBox x:Name="tbName" MaxWidth="250" MinWidth="145" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0" Text="{DynamicResource textName}" Style="{DynamicResource BaseStyle}"></TextBox>
+                    </Grid>
+                </Expander>
+
+                <Expander Header="Год издания" Grid.Column="0" Grid.Row="2" IsExpanded="True" Margin="0,0,0,0" Grid.RowSpan="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Год издания" Grid.Column="0" Grid.Row="0" Style="{DynamicResource BaseStyle}" HorizontalContentAlignment="Stretch" FontSize="9"/>
+                        <TextBox x:Name="tbYear" MaxWidth="250" MinWidth="145" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0" Text="{DynamicResource textYear}" Style="{DynamicResource BaseStyle}"></TextBox>
+                    </Grid>
+                </Expander>
+
+                <Expander Header="Издательство" Grid.Column="0" Grid.Row="3" IsExpanded="True" Margin="0,0,0,0" Grid.RowSpan="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Издательство" Grid.Column="0" Grid.Row="0" Style="{DynamicResource BaseStyle}" HorizontalContentAlignment="Stretch" FontSize="9"/>
+                        <TextBox x:Name="tbIZD" MaxWidth="250" MinWidth="145" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0" Text="{DynamicResource textIZD}" Style="{DynamicResource BaseStyle}"></TextBox>
+                    </Grid>
+                </Expander>
+
+                <Expander Header="Жанр" Grid.Column="0" Grid.Row="4" IsExpanded="True" Margin="0,0,0,0" Grid.RowSpan="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Жанр" Grid.Column="0" Grid.Row="0" Style="{DynamicResource BaseStyle}" HorizontalContentAlignment="Stretch" FontSize="9"/>
+                        <TextBox x:Name="tbJanr" MaxWidth="250" MinWidth="145" HorizontalAlignment="Left" Grid.Column="1" Grid.Row="0" Text="{DynamicResource textJanr}" Style="{DynamicResource BaseStyle}"></TextBox>
+                    </Grid>
+                </Expander>
+
+                <Expander Header="Кол-во.страниц" Grid.Column="0" Grid.Row="5" IsExpanded="True" Margin="0,0,0,0" Grid.RowSpan="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.4*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Кол-во.страниц" Grid.Column="0" Grid.Row="0" Style="{DynamicResource BaseStyle}" FontSize="9" HorizontalContentAlignment="Stretch"/>
+                        <TextBox x:Name="tbCount" MaxWidth="250" MinWidth="145" HorizontalAlignment="Left"  Grid.Column="1" Grid.Row="0" Text="{DynamicResource textCount}" Style="{DynamicResource BaseStyle}"></TextBox>
+                    </Grid>
+                </Expander>
+
+                <Grid Grid.Column="0" Grid.Row="6" Grid.RowSpan="1" Margin="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.4*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="bAdd" MaxWidth="120" MinWidth="80" HorizontalAlignment="Left"
+                            Grid.Column="1" Grid.Row="0" Click="Add" Style="{DynamicResource BaseStyle}" FontSize="11">Добавить</Button>
+                </Grid>
+
+                <Grid Grid.Column="0" Grid.Row="7" Grid.RowSpan="1" Margin="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.4*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="bEdit" MaxWidth="120" MinWidth="80" HorizontalAlignment="Left"
+                            Grid.Column="1" Grid.Row="0" Click="Edit" Style="{DynamicResource BaseStyle}" FontSize="11">Изменить</Button>
+                </Grid>
+
+                <Grid Grid.Column="0" Grid.Row="8" Grid.RowSpan="1" Margin="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.4*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="bDel" MaxWidth="120" MinWidth="80" HorizontalAlignment="Left"
+                            Grid.Column="1" Grid.Row="0" Click="Delete" Style="{DynamicResource BaseStyle}" FontSize="11">Удалить</Button>
+                </Grid>
+            </Grid>
+        </DockPanel>
+
+        <ScrollViewer Grid.Column="2">
+            <DataGrid  x:Name="dgridBook" AutoGenerateColumns="True" MinHeight="396" MinWidth="700" ScrollViewer.CanContentScroll="True">
+                <DataGrid.ItemContainerStyle>
+                    <Style TargetType="DataGridRow">
+                        <EventSetter Event="MouseDoubleClick" Handler="Row_DoubleClick"/>
+                    </Style>
+                </DataGrid.ItemContainerStyle>
+            </DataGrid>
+        </ScrollViewer>
+
+        <Grid Grid.Column="1" Grid.Row="1" Margin="0,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="13*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.33*"/>
+                <ColumnDefinition Width="0.33*"/>
+                <ColumnDefinition Width="0.33*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="bSave" Grid.Column="1" Grid.Row="0"  MinWidth="190" HorizontalAlignment="Center" Margin="8,15,8,15" Content="Выгрузить XML" Click="SaveToXML" Grid.RowSpan="2" Style="{DynamicResource BaseStyle}"/>
+            <Button x:Name="bClear" Grid.Column="0" Grid.Row="0"  MinWidth="190" HorizontalAlignment="Left" Margin="8,15,8,15" Content="Очистить таблицу" Click="ClearDataGrid" Grid.RowSpan="2" Style="{DynamicResource BaseStyle}"/>
+            <Button x:Name="bLoad" Grid.Column="2" Grid.Row="0"  MinWidth="190" HorizontalAlignment="Right" Margin="8,15,8,15" Content="Загрузить XML" Click="LoadFromXML" Grid.RowSpan="2" Style="{DynamicResource BaseStyle}"/>
+        </Grid>
+
+        <Grid Grid.Column="0" Grid.Row="1" Margin="0,0,0,0">
+            <ComboBox x:Name="styleBox" HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" MinWidth="213" Style="{DynamicResource BaseStyle}"/>
+        </Grid>
+
+
+        <GridSplitter Grid.Column="2" Grid.Row ="1" Grid.ColumnSpan="1" Height="3" HorizontalAlignment="Stretch" VerticalAlignment="Top" Style="{DynamicResource BaseStyle}" Margin="0,0,0,0"/>
+        <GridSplitter Grid.Column="0" Grid.Row ="1" Height="3" HorizontalAlignment="Stretch" VerticalAlignment="Top" Style="{DynamicResource BaseStyle}" Margin="0, 0, 0, 0"/>
+        <GridSplitter Grid.Column="2" Grid.Row ="0" Width="3" HorizontalAlignment="Left" Style="{DynamicResource BaseStyle}" Margin="0,0,0,0"/>
+
+    </Grid>
+</Window>

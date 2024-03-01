@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Capital>
+    <Name> Москва</Name>
+    <Country> Российская Федерация</Country>
+    <PartOfTheWorld>Европа</PartOfTheWorld>
+    <Population>13104177</Population>
+    <Area>2561</Area>
+  </Capital>
+  <Capital>
+    <Name>Вашингтон</Name>
+    <Country>США</Country>
+    <PartOfTheWorld>Северная Америка</PartOfTheWorld>
+    <Population>689545</Population>
+    <Area>177 </Area>
+  </Capital>
+  <Capital>
+    <Name>Канберра</Name>
+    <Country>Австралия</Country>
+    <PartOfTheWorld>Австралия</PartOfTheWorld>
+    <Population>431826</Population>
+    <Area>812</Area>
+  </Capital>
+  <Capital>
+    <Name>Гонконг</Name>
+    <Country>Китай</Country>
+    <PartOfTheWorld>Азия</PartOfTheWorld>
+    <Population>12312</Population>
+    <Area>123123</Area>
+  </Capital>
+  <Capital>
+    <Name>ve</Name>
+    <Country>wev</Country>
+    <PartOfTheWorld>qve</PartOfTheWorld>
+    <Population>vqe</Population>
+    <Area>qve</Area>
+  </Capital>
+</NewDataSet>

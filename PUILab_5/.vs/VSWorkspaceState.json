@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\net6.0-windows",
+    "\\bin\\Release",
+    "\\obj\\Debug",
+    "\\obj\\Debug\\net6.0-windows\\ref",
+    "\\obj\\Debug\\net6.0-windows\\refint",
+    "\\obj\\Release\\net6.0-windows",
+    "\\Resources"
+  ],
+  "SelectedNode": "\\PUI_lab5.csproj",
+  "PreviewInSolutionExplorer": false
+}
